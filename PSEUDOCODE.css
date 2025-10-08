@@ -1,0 +1,66 @@
+header{
+    background-color: bisque;
+    height: 700px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+/* direct child selecting*/
+header >h1{
+    color: blueviolet;
+}
+.card > h1{
+    color: chartreuse;
+}
+header > #para2{
+    background-color: azure;
+
+}
+.card1{
+    height: 400px;
+    width: 600px;
+    background-color: darkred;
+}
+/*Direct child Targeting by --> greater than symbol*/
+.card1>.Box{
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+}
+.card1>.Box>.container{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+}
+.card1>h2{
+    color: azure;
+}
+/*descedent selector--->give some space*/
+.card1 h2{
+    color: chartreuse;
+}
+main> button:hover{
+background-color: cornsilk;
+font-size: 20px;
+text-transform: uppercase;
+}
+main> h1{
+    text-decoration:underline;
+}
+main > button:active{
+    background-color: blueviolet;
+    color: bisque;
+    font-weight: bold;
+}
+
+/*target the odd child*/
+main>ol>li:nth-child(2n+1){
+    background-color: hotpink;
+}
+
+/*target the even child*/
+main>ol>li:nth-child(2n){
+    background-color: blanchedalmond;
+}

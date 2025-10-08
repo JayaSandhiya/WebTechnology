@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1_Space-evenly--> All side even.
+   2_Space-around-->between the content  equally and remaining will be splited.
+   3_space_between-->space between the content evenly.
+    */
+header{
+    background-color: rgb(152, 229, 233);
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+    
+}
+header>div{
+    /* background-color: teal; */
+    display: flex;
+    gap: 20px;
+}
+header>div>h1{
+    /* background-color: rgb(14, 207, 201); */
+
+}
+nav{
+    background-color: rgba(210, 204, 204, 0.578);
+     margin-top: 20px;
+     display: flex;
+     justify-content: right;
+    }
+nav>ul{
+    /* background-color: rgb(184, 19, 132); */
+    display: flex;
+    list-style-type: none;
+}
+    
+nav> ul>li>a{
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+    padding: 20px;
+    display: block;
+    font-size:larger;
+}
+nav> ul>li>a:hover{
+    background-color: pink;
+    color:black;
+    border-radius: 50%;
+
+}
