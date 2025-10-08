@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+</head>
+<body>
+
+    <h1>STUDENT FORM</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>STUDENT INFORMATION</legend>
+      <label for="sn">Student Name</label>
+      <input type="text" id="sn" name="stuname" placeholder="Enter your name" required>      <br><br>
+
+      <label for="pn">Phone Number</label>
+      <input type="tel" id="pn" name="stuphone" placeholder="Enter your Number" max="10">     <br><br>
+      
+      <label for="p">Password</label>
+      <input type="password" id="p" name="stupass" placeholder="Enter correct password" min="8">    <br><br>
+
+      <label for="StuA">Student Age</label>
+      <input type="number" name="age" id="StuA" placeholder="Enter Age">  <br><br>
+
+      <label for="StuEmail">Student Email</label>
+      <input type="email" name="Email" id="StuEmail" value="Student@gmail.com" placeholder="enter email">   <br><br>
+
+      <label for="">Subjects</label> <br>
+      <label for="subj1">HTML</label>
+      <input type="checkbox" name="sub1" id="subj1" value="html"> 
+      <label for="subj2">CSS</label>
+      <input type="checkbox" name="sub2" id="subj2" value="css"> 
+      <label for="subj3">javaScript</label>
+      <input type="checkbox" name="sub3" id="subj3" value="Javascript"><br><br>
+
+      <label for="Date">Date of birth</label>
+      <input type="date" name="Date of Birth" id="Date"> <br><br>
+
+      <label for="">Gender</label> <br>
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="male" value="Male">
+      <label for="female">Female</label>
+      <input type="radio" name="Gender" id="female" value="Female">
+      <label for="others">Others</label>
+      <input type="radio" name="Gender" id="others" value="Others"> <br><br>
+
+      <label for="C1">Select the course</label> <br>
+       <select name="Course" id="C1" placeholder="select any one">
+        <option value="Python">PYTHON</option>
+        <option value="Java">JAVA</option>
+        <option value="Manual testing">MANUAL TESTING</option>
+       </select> <br><br>
+
+       <label for="ADD">Address</label> <br>
+       <textarea name="Address" id="ADD" rows="10" cols="40"></textarea> <br><br>
+
+       <label for="Sal">Salary</label>
+       <input type="range" id="Sal" name="Salary" min="10000" max="50000"><br><br>
+
+       <button type="Submit">Signup</button>
+       <button type="Reset">Reset</button>
+
+       <input type="Submit" value="Submit by input">
+       <input type="reset" value="Reset by input">
+
+
+
+      
+      
+      
+      
+        </fieldset>
+
+      
+    </form>
+    
+</body>
+</html>
